@@ -1,7 +1,7 @@
 import pytest
-from app import app
+from src.app import app
 
-from cloudevents.conversion import to_binary, to_structured
+from cloudevents.conversion import to_structured
 from cloudevents.http import CloudEvent
 
 
@@ -24,4 +24,3 @@ def test_structured_request(client):
 
     r = client.post("/", headers=headers, data=body)
     assert r.status_code == 204
-    
