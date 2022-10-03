@@ -110,6 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 cloudevent_env/
+cloudevent_env
 
 # Spyder project settings
 .spyderproject
