@@ -1,5 +1,5 @@
 import pytest
-from src.app import app
+from src.cloudevents_receiver import app
 
 from cloudevents.conversion import to_structured
 from cloudevents.http import CloudEvent
